@@ -273,7 +273,12 @@
   }
 
   .right {
-    display: none;
+    width: fit-content;
+    max-width: 60vmin;
+    margin: 0 auto;
+  }
+  .right img {
+    height: 100%;
   }
 }
 
