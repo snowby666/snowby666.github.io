@@ -29,6 +29,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Add environment variables to .env
+        run: |
+          touch .env
+          echo NEXT_PUBLIC_GITHUB_USERNAME=${{secrets.NEXT_PUBLIC_GITHUB_USERNAME}} >> .env
+          echo NEXT_GITHUB_API_KEY=${{secrets.NEXT_GITHUB_API_KEY}} >> .env
+          cat .env
       - name: Checkout
         uses: actions/checkout@v3
       - name: Detect package manager
@@ -93,6 +99,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        env: 
-            NEXT_PUBLIC_GITHUB_USERNAME: ${{secrets.NEXT_PUBLIC_GITHUB_USERNAME}}
-            NEXT_GITHUB_API_KEY: ${{secrets.NEXT_GITHUB_API_KEY}}
