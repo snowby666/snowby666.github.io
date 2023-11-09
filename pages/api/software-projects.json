@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Django OpenCV Video Streaming",
+    "image": "https://media.discordapp.net/attachments/957946068836950026/1171395344362385438/263ce79c-a6aa-45dd-82b2-a8a14b30276e.png?ex=655c85ed&is=654a10ed&hm=6893d7533b3ccc9626b73dd23fac64293b842bef1842eac5d29874708e8d624c&=&width=771&height=434",
+    "description": "This project utilizes Django Channels and OpenCV for Real-time ML on Video Streaming. Plus, it works when deployed to production",
+    "tags": ["Django", "C3.js", "OpenCV", "Numpy", "Websockets", "Ngrok"],
+    "source_code": "https://github.com/snowby666/Django-OpenCV-Video-Streaming"
+  },
+  {
+    "id": 2,
+    "name": "coDestress - AI based mental assistant",
+    "image": "https://media.discordapp.net/attachments/957946068836950026/1171326256877404221/coDestress_banner.png?ex=655c4595&is=6549d095&hm=7d7a96fd99a63eabdeb8d15528eb6ebc40585d48b5dfe1054358f471d4163f20&=&width=811&height=608",
+    "description": "A web application for personalized mental health support and music therapy.",
+    "tags": ["Django", "OpenCV", "kNN", "Scikit-learn", "Numpy", "AJAX", "jQuery", "Websockets", "Spotify", "PostgreSQL", "Heroku"],
+    "demo": "https://www.codestress.online"
+  },
+  {
+    "id": 3,
+    "name": "Nhà Anh Ngữ - Learning Management System",
+    "image": "https://media.discordapp.net/attachments/957946068836950026/1171332336592355388/image.png?ex=655c4b3f&is=6549d63f&hm=cdf56f4da5b3207fc9a0156716f3fb1ffeec76325646bc40354be2e79af746ef&=&width=832&height=608",
+    "description": " A LMS for students to access course materials, interact with instructors, and track learning progress.",
+    "tags": ["Django", "Bootstrap", "MySQL", "PythonAnywhere"],
+    "demo": "https://www.nhaanhngu.com/"
+  },
+  {
+    "id": 4,
+    "name": "PTNK - Content Management System",
+    "image": "https://media.discordapp.net/attachments/957946068836950026/1171335438884159548/PTNK_banner.png?ex=655c4e22&is=6549d922&hm=7aa57a495ec056e5c1a5338d5c4741550d081ad9cd40edec62590faeaeca7e0a&=&width=811&height=608",
+    "description": "A responsive web app for my High School with minimalistic design. Implemented modules for Result Management, Student Management, Blog with a flexible commenting system, Document Library, and Authentication.",
+    "tags": ["Django", "AJAX", "jQuery", "Bootstrap", "REST API", "PythonAnywhere"],
+    "demo": "https://ptnk.pythonanywhere.com/",
+    "source_code": "https://github.com/snowby666/django-school-management-system"
+  },
+  {
+    "id": 5,
+    "name": "A Tale Of Nightmare",
+    "image": "https://media.discordapp.net/attachments/957946068836950026/1171346511993524244/main-f5fe3548-308c-4f20-b898-523a009fbaca.png?ex=655c5873&is=6549e373&hm=0b76948cfd1ac417586358d7353b7477c4e602364613d6352d2b3df0fea643c0&=&width=608&height=608",
+    "description": "An indie game featuring bullet-hell gameplay with captivating soundtracks.",
+    "tags": ["HTML/CSS", "JavaScript/TypeScript"],
+    "demo": "https://avocadostudio.itch.io/a-tale-of-nightmare"
+  }
+  
+]
