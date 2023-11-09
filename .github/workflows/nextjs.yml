@@ -31,12 +31,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Add environment variables to .env.development
+      - name: Add environment variables to .env
         run: |
           touch .env.development
-          echo NEXT_PUBLIC_GITHUB_USERNAME=${{ secrets.NEXT_PUBLIC_GITHUB_USERNAME }} >> .env.development
-          echo NEXT_GITHUB_API_KEY=${{ secrets.NEXT_GITHUB_API_KEY }} >> .env.development
-          cat .env.development
+          echo NEXT_PUBLIC_GITHUB_USERNAME=${{ secrets.NEXT_PUBLIC_GITHUB_USERNAME }} >> .env
+          echo NEXT_GITHUB_API_KEY=${{ secrets.NEXT_GITHUB_API_KEY }} >> .env
+          cat .env
       - name: Detect package manager
         id: detect-package-manager
         run: |
