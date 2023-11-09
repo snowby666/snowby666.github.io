@@ -24,6 +24,10 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env: # <--- here
+  NEXT_PUBLIC_GITHUB_USERNAME: ${{secrets.NEXT_PUBLIC_GITHUB_USERNAME}}
+  NEXT_GITHUB_API_KEY: ${{secrets.NEXT_GITHUB_API_KEY}}
+  
 jobs:
   # Build job
   build:
