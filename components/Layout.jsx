@@ -4,7 +4,7 @@ import Explorer from '../components/Explorer';
 import Bottombar from '../components/Bottombar';
 import Tabsbar from './Tabsbar';
 import styles from '../styles/Layout.module.css';
-import { useState, useEffect, use } from 'react';
+import { useState, useEffect } from 'react';
 
 const useWidth = () => {
   const [width, setWidth] = useState(0); // default width, detect on server.
