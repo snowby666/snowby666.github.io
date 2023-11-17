@@ -3,7 +3,7 @@ import GitHubCalendar from 'react-github-calendar';
 import RepoCard from '../components/RepoCard';
 import styles from '../styles/GithubPage.module.css';
 
-const GithubPage = ({ repos, user }) => {
+var GithubPage = ({ repos, user }) => {
   // console.log(repos);
   const theme = {
     level0: '#161B22',
@@ -58,7 +58,7 @@ const GithubPage = ({ repos, user }) => {
 };
 
 export async function getStaticProps() {
-  const userRes = await fetch(
+  var userRes = await fetch(
     `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
     {
       headers: {
@@ -66,9 +66,9 @@ export async function getStaticProps() {
       },
     }
   );
-  const user = await userRes.json();
+  var user = await userRes.json();
 
-  const repoRes = await fetch(
+  var repoRes = await fetch(
     `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
     {
       headers: {
@@ -76,7 +76,7 @@ export async function getStaticProps() {
       },
     }
   );
-  let repos = await repoRes.json();
+  var repos = await repoRes.json();
   repos = [].slice.call(repos).sort((a, b) => {
       if (a.html_url.includes('EESTech') || a.html_url.includes('COSC')) {
         return b
