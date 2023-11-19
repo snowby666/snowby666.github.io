@@ -87,10 +87,10 @@
 .Pandas:hover {
   background: rgba(0, 54, 216, 0.25);
 }
-.Numpy {
+.NumPy {
   border: 0.1rem solid rgb(251, 199, 66);
 }
-.Numpy:hover {
+.NumPy:hover {
   background: rgba(251, 199, 66, 0.25);
 }
 .Scikit-learn {

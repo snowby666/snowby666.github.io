@@ -4,7 +4,7 @@
     "name": "Django OpenCV Video Streaming",
     "image": "https://media.discordapp.net/attachments/957946068836950026/1171395344362385438/263ce79c-a6aa-45dd-82b2-a8a14b30276e.png?ex=655c85ed&is=654a10ed&hm=6893d7533b3ccc9626b73dd23fac64293b842bef1842eac5d29874708e8d624c&=&width=771&height=434",
     "description": "This project utilizes Django Channels and OpenCV for Real-time ML on Video Streaming. Plus, it works when deployed to production.",
-    "tags": ["Django", "C3.js", "OpenCV", "Numpy", "Websockets", "Ngrok"],
+    "tags": ["Django", "C3.js", "OpenCV", "NumPy", "Websockets", "Ngrok"],
     "source_code": "https://github.com/snowby666/Django-OpenCV-Video-Streaming"
   },
   {
@@ -12,7 +12,7 @@
     "name": "coDestress - AI based mental assistant",
     "image": "https://media.discordapp.net/attachments/957946068836950026/1171326256877404221/coDestress_banner.png?ex=655c4595&is=6549d095&hm=7d7a96fd99a63eabdeb8d15528eb6ebc40585d48b5dfe1054358f471d4163f20&=&width=811&height=608",
     "description": "A web application for personalized mental health support and music therapy.",
-    "tags": ["Django", "OpenCV", "kNN", "Scikit-learn", "Numpy", "AJAX", "jQuery", "Websockets", "Spotify", "PostgreSQL", "Heroku"],
+    "tags": ["Django", "OpenCV", "kNN", "Scikit-learn", "NumPy", "AJAX", "jQuery", "Websockets", "Spotify", "PostgreSQL", "Heroku"],
     "demo": "https://www.codestress.online"
   },
   {
