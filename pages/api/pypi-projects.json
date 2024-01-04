@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Poe API Wrapper",
-    "image": "https://camo.githubusercontent.com/7d1628d09fe321231b775248514122416f79ea330fface5466ecdc036bda78c5/68747470733a2f2f736f6369616c6966792e6769742e63692f736e6f7762793636362f706f652d6170692d777261707065722f696d6167653f666f6e743d52616c6577617926666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d68747470733a2f2f692e6962622e636f2f4a734e775033422f6e6f626770726f66696c652d332e706e67266e616d653d31266f776e65723d31267061747465726e3d436861726c696525323042726f776e2670756c6c733d31267374617267617a6572733d31267468656d653d4175746f",
+    "image": "https://socialify.git.ci/snowby666/poe-api-wrapper/image?font=Raleway&forks=1&issues=1&language=1&logo=https://i.ibb.co/JsNwP3B/nobgprofile-3.png&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Auto",
     "description": "A simple API wrapper for Poe.com using Httpx.",
     "tags": ["PyPi", "Httpx", "GraphQL", "Websockets", "LLM", "Wrapper"],
     "source_code": "https://github.com/snowby666/poe-api-wrapper",
