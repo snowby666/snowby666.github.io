@@ -6,7 +6,7 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Bao Ngo's Profolio."
+        content="Bao Ngo's Portfolio."
       />
       <meta
         name="keywords"
@@ -15,7 +15,7 @@ const CustomHead = ({ title }) => {
       <meta property="og:title" content="Bao Ngo's Portfolio" />
       <meta
         property="og:description"
-        content="Bao Ngo's Profolio."
+        content="Bao Ngo's Portfolio."
       />
       <meta property="og:image" content="https://cdn.discordapp.com/attachments/957946068836950026/1175783916150456432/image.png?ex=656c7d1a&is=655a081a&hm=70c8abc125a348a6f31ef0e9f61c208dac1b8e5a018660f551ccfd2bb6b352f0&" />
       <meta property="og:url" content="https://snowby666.github.io" />
