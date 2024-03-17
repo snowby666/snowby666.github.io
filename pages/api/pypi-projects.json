@@ -3,9 +3,18 @@
     "id": 1,
     "name": "Poe API Wrapper",
     "image": "https://socialify.git.ci/snowby666/poe-api-wrapper/image?font=Raleway&forks=1&issues=1&language=1&logo=https://i.ibb.co/JsNwP3B/nobgprofile-3.png&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Auto",
-    "description": "A simple API wrapper for Poe.com using Httpx.",
+    "description": "A simple, lightweight and efficient API wrapper for Poe.com.",
     "tags": ["PyPi", "Httpx", "GraphQL", "Websockets", "LLM", "Wrapper"],
     "source_code": "https://github.com/snowby666/poe-api-wrapper",
     "pypi": "https://pypi.org/project/poe-api-wrapper/"
+  },
+  {
+    "id": 2,
+    "name": "Moodify",
+    "image": "https://socialify.git.ci/snowby666/moodify/image?font=Raleway&forks=1&issues=1&language=1&logo=https://i.ibb.co/JsNwP3B/nobgprofile-3.png&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Auto",
+    "description": "A simple, lightweight and efficient API wrapper for Poe.com.",
+    "tags": ["PyPi", "Spotify", "ytmusicapi", "Requests", "Beautiful Soup"],
+    "source_code": "https://github.com/snowby666/moodify",
+    "pypi": "https://pypi.org/project/moodify/"
   }
 ]

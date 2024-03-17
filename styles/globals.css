@@ -311,10 +311,22 @@
 .Youtube:hover {
   background: rgba(255, 0, 0, 0.25);
 }
+.ytmusicapi {
+  border: 0.1rem solid rgb(255, 0, 0);
+}
+.ytmusicapi:hover {
+  background: rgba(255, 0, 0, 0.25);
+}
 .Gmail {
   border: 0.1rem solid rgb(189, 100, 100);
 }
 .Gmail:hover {
+  background: rgba(189, 100, 100, 0.25);
+}
+.Beautiful-Soup {
+  border: 0.1rem solid rgb(189, 100, 100);
+}
+.Beautiful-Soup:hover {
   background: rgba(189, 100, 100, 0.25);
 }
 .REST.API {
@@ -468,6 +480,12 @@
   border: 0.1rem solid rgb(0, 72, 255);
 }
 .Deep-Learning:hover {
+  background: rgba(0, 72, 255, 0.25);
+}
+.Requests {
+  border: 0.1rem solid rgb(0, 72, 255);
+}
+.Requests:hover {
   background: rgba(0, 72, 255, 0.25);
 }
 .Httpx {
