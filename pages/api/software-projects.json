@@ -13,7 +13,7 @@
     "image": "https://i.imgur.com/8AHDMHi.png",
     "description": "A web application for personalized mental health support and music therapy.",
     "tags": ["Django", "OpenCV", "kNN", "Scikit-learn", "NumPy", "AJAX", "jQuery", "Websockets", "Spotify", "PostgreSQL", "Heroku"],
-    "demo": "https://www.codestress.online"
+    "demo": "https://www.codestress.site"
   },
   {
     "id": 3,
