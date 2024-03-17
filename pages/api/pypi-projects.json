@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Moodify",
     "image": "https://socialify.git.ci/snowby666/moodify/image?font=Raleway&forks=1&issues=1&language=1&logo=https://i.ibb.co/JsNwP3B/nobgprofile-3.png&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Auto",
-    "description": "A simple, lightweight and efficient API wrapper for Poe.com.",
+    "description": "A simple Spotify playlist creator that generates custom playlists based on your mood.",
     "tags": ["PyPi", "Spotify", "ytmusicapi", "Requests", "Beautiful Soup"],
     "source_code": "https://github.com/snowby666/moodify",
     "pypi": "https://pypi.org/project/moodify/"
